@@ -18,6 +18,9 @@ public class Calculator {
 		n1 = sc.nextInt();
 		n2 = sc.nextInt();
 		n3=n1+n2;
+			n3=n1-n2;
+		n3=n1*n2;
+		        n3=n1/n2;
 		System.out.println(" addition:" +"  "+(n1+n2));
 		System.out.println(" substaction:"+ "  "+(n1-n2));
 		System.out.println(" multiplication:" +"  "+(n1*n2));
