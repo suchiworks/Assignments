@@ -6,6 +6,7 @@ public class FutureInvestment {
 		// TODO Auto-generated method stub
 		float P =1000, R =10, T =5;
 		  float SI =(P * T * R)/100;        
-		  System.out.println("Simple interest ="+SI);
+		   for(int i=1;i<=T;i++) {
+			  System.out.println("Simple interest ="+i+" "+SI);
     }
-}
+}}
